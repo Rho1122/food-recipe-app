@@ -1,0 +1,52 @@
+h1,h2,h3,h4,h5, .recipe-title {
+    font-weight: 700;
+}
+
+.result-wrapper {
+    width: 300px;
+    overflow: hidden;
+}
+
+.image-wrapper {
+  width: 270px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.navlink {
+    text-decoration: none;
+    color: #f7f1f1;
+}
+
+.navlink:hover {
+    color: #dff0cf;
+}
+
+form {
+    width: 400px;
+    margin-right: 20px;
+}
+
+input {
+    background-color: antiquewhite;
+}
+
+.recipe-wrapper {
+    display: block;
+    
+}
+
+
+
+@media (min-width: 1100px) {
+    .recipe-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+    }  
+    
+    .info-holder {
+        grid-column: span 2;
+    }
+    
+}
